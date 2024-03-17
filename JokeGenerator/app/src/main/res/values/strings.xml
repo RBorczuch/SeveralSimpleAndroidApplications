@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="joke1">Chuck Norris is the only human being to display the Heisenberg uncertainty principle - you can never know both exactly where and how quickly he will roundhouse-kick you in the face.</string>
+    <string name="joke2">The Chuck Norris military unit was not used in the game Civilization 4, because a single Chuck Norris could defeat the entire combined nations of the world in one turn.</string>
+    <string name="joke3">A handicapped parking sign does not signify that this spot is for handicapped people. It is actually in fact a warning, that the spot belongs to Chuck Norris and that you will be handicapped if you park there.</string>
+    <string name="joke4">When God said, “Let there be light!” Chuck said, “Say Please.”</string>
+    <string name="joke5">Chuck Norris doesn\'t read books. He stares them down until he gets the information he wants.</string>
+    <string name="joke6">Chuck Norris appeared in the ‘Street Fighter II’ video game, but was removed by Beta Testers because every button caused him to do a roundhouse kick. When asked bout this “glitch,” Chuck Norris replied, “That’s no glitch.”</string>
+    <string name="joke7">Chuck Norris can divide by zero.</string>
+    <string name="joke8">Chuck Norris found the last digit of pi.</string>
+    <string name="joke9">Chuck Norris once roundhouse kicked someone so hard that his foot broke the speed of light</string>
+    <string name="top_text">Funny app</string>
+    <string name="btn_generate">Generate</string>
+</resources>

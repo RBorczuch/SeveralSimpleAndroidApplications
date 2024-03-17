@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_row="2"
+    android:layout_column="2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true"
+        android:orientation="vertical"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/number_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/lbl_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="m   " />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5" />
+
+            <Button
+                android:id="@+id/Button_przelicz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:onClick="Button_Przelicz_handler"
+                android:text="PRZELICZ"
+                android:textAllCaps="false" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10" />
+
+            <RadioGroup
+                android:id="@+id/rButtonGroup"
+                android:layout_width="100dp"
+                android:layout_height="318dp"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rButton_mm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="mm" />
+
+                <RadioButton
+                    android:id="@+id/rButton_cm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="cm" />
+
+                <RadioButton
+                    android:id="@+id/rButton_dm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dm" />
+
+                <RadioButton
+                    android:id="@+id/rButton_km"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="km" />
+
+                <RadioButton
+                    android:id="@+id/rButton_mi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mile" />
+
+                <RadioButton
+                    android:id="@+id/rButton_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="in" />
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="100" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/number_output"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="5"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text"
+                android:text="x"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/out_units"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="-"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
